@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnFauna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fauna Terlangka"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnFlora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flora Terlangka"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
